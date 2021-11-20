@@ -14,5 +14,6 @@ lazy val hello = (project in file("."))
        "-groups",
         "-external-mappings:.*scala.*::scaladoc3::https://scala-lang.org/api/3.x/," +
            ".*java.*::javadoc::https://docs.oracle.com/en/java/javase/11/docs/api/java.base/",
+        "-source-links:github://charpov/ScaladocStaticDemo/main",
      )
    )
